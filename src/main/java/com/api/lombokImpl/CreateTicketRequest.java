@@ -1,7 +1,10 @@
 package com.api.lombokImpl;
 
+import lombok.Getter;
+import lombok.Setter;
+
 public class CreateTicketRequest {
-	
+
 	Fields fields;	
 	
 	public Fields getFields() {

@@ -29,4 +29,21 @@ public class ConfigLoader {
         return configLoader;
     }
 
+    public String getBaseURI(){
+        return prop.getProperty("BASEURI");
+    }
+
+    public String getUserName(){
+        return prop.getProperty("JIRAUserName");
+    }
+
+    public  String getPass(){
+        return prop.getProperty("JIRAPass");
+    }
+
+    public  String getCreateJIRAEndPoint(){
+        return prop.getProperty("CreateUserNamePath");
+    }
+
+
 }

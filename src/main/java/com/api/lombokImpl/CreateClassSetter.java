@@ -12,9 +12,9 @@ import io.restassured.response.ValidatableResponse;
 
 public class CreateClassSetter {
 	
-	String key = "SWAT";
+	static String key = "SWAT";
 	
-	public String createTicketRequest() throws JsonProcessingException {
+	public static String createTicketRequest() throws JsonProcessingException {
 		
 		CreateTicketRequest createTicket = new CreateTicketRequest();
 		
